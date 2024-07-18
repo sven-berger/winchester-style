@@ -47,9 +47,16 @@ body[itemid="https://the-supernatural.de/link-entry/1-febas-gmbh-mein-hoster-sei
 	}
 }
 
-.febas-seitenleiste {
+.box.febas-seitenleiste .legend-box {
     background: none !important;
-    border: 0 !important;
-    margin: 0 !important;
-    padding: 0 !important;
+	border: 0 !important;
+	padding: 10px 0 0 0 !important;
+	
+	img {
+		border-radius: 12px;
+	}
+	
+	a.externalURL::after {
+		display: none;
+	}
 }
