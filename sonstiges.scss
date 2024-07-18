@@ -121,3 +121,11 @@ hr.trennlinie-2-center,
 		display: block !important;
 	}
 }
+
+#tpl_wcf_login {
+	.loginFormLogin, .loginFormRegister, .loginFormThirdPartyLogin {
+		background: #efefef !important;
+		border-radius: 12px !important;
+		padding: 16px !important;
+	}
+}
