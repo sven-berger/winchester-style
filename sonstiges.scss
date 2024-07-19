@@ -5,11 +5,13 @@
     	font-weight: bold;
 		padding-left: 0 !important;
 	}
-	.userRankImage img {
-		display: none;
-	}
 }
 
+#tpl_wcf_user .userProfileUser, .userMenu {
+	.userRankImage img {
+		// display: none;
+	}
+}
 
 #tpl_wcf_legalNotice, .datenschutzerklaerung  {
 	.content .section {
