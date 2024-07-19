@@ -16,13 +16,17 @@ body[data-page-id="224"]  {
 	}
 
 	.burning-board-1 {
+		background: #0d7bb9 !important;
+		padding: 0 !important;
+		
 		.showEntryDataContainer {
 			padding: 20px 0;
+		}
+
+		.showEntrySubject, .showEntryDataContainer {
 			color: #fff !important;
 		}
 		
-		background: #0d7bb9 !important;
-		padding: 0 !important;
         img {
             border-radius: 12px !important;
         }
