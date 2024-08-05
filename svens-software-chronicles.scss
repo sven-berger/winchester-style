@@ -46,6 +46,11 @@ body[data-page-id="224"]  {
 
 	.phpbb1-dark {
 		background: #000;
+		color: #fff !important;
+
+		.showEntrySubject a, .showEntryDataContainer {
+			color: #fff !important;
+		}
 	}
 
 	.phpbb2 {
