@@ -19,8 +19,36 @@ body[data-page-id="224"]  {
     	background: #f2f3f4 !important;
 	}
 
+	.showEntryFooter-phpBB1dark {
+		background: #2c3e50 !important;
+		color: #fff !important;
+			.icon, a {
+				color: #fff !important;
+			}
+	}
+	
+	.burning-board-1-2-showEntryFooter {
+		background: #3579BD !important;
+		color: #fff !important;
+			.icon, a {
+				color: #fff !important;
+			}
+	}
+	
+	.burning-board-1-1-showEntryFooter {
+		background: rgb(109, 77, 77) !important;
+		color: #fff !important;
+			.icon, a {
+				color: #fff !important;
+			}
+	}
+
 	.burning-board-1-1 {
 		background: #646464;
+		color: #fff !important;
+		.showEntrySubject a, .showEntryDataContainer {
+			color: #fff !important;
+		}
 	}
 
 	.burning-board-1-2 {
@@ -122,5 +150,8 @@ body[data-page-id="224"]  {
 
 	.showEntryStats .icon {
 		margin-right: 5px;
+		color: rgb(109, 77, 77);
 	}
 }
+
+
