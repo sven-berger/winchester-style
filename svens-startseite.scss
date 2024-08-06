@@ -1,7 +1,7 @@
 body[data-page-id="237"] {
 
 	@include screen-md-down { 
-		.sidebar + .content, .content + .sidebar {
+		.boxesContentTop .box:not(:first-child), .boxesContentBottom .box:not(:first-child) {
 			margin-top: 10px !important;
 		}
 	}
