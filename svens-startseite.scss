@@ -20,8 +20,14 @@ body[data-page-id="237"] {
 			padding-bottom: 0 !important;
 		}
 	}
-}
-
+	
+	@include screen-md-down { 
+			.sidebar + .content {
+				margin-top: 0 !important;
+			}
+		}
+	}
+	
 .svens-inhalt {
     .sidebarItemTitle {
         margin-left: 5px;
