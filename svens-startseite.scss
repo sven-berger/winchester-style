@@ -140,10 +140,6 @@ body[data-page-id="237"] {
     }
 }
 
-.showhidesidebar li {
-	display: none;
-}
-
 @media only screen and (min-width: 1200px) and (max-width: 1920px) and (min-height: 600px) and (max-height: 1080px) {
     .boxesContentTop .box.prasentation-spalten {
         margin-top: 0 !important;
@@ -274,5 +270,9 @@ body[data-page-id="237"] {
 		.boxEditButton {
 			display: none;
 		}
+	}
+
+	.showhidesidebar .showhidesidebar li {
+		display: none;
 	}
 }
