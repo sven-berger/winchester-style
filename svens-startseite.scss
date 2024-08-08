@@ -275,4 +275,10 @@ body[data-page-id="237"] {
 	.showhidesidebar li {
 		display: none;
 	}
+
+	@include screen-md-down { 
+		.main > .layoutBoundary > .content {
+			margin-top: 0 !important;
+		}
+	}
 }
