@@ -1,0 +1,32 @@
+#tpl_clan_clan, #tpl_clan_clanLastActivity, #tpl_clan_clanComment, #tpl_clan_clanMembers, #tpl_clan_clanPage {
+
+	.contentInteractionButton ul {
+		display: flex !important;
+	}
+
+	.featured-club {
+		background: green;
+		margin-left: 5px;
+		color: #fff !important;
+	}
+	
+	.info {
+		margin-bottom: 20px;
+	}
+
+	.club-statistik {
+		.details {
+			margin-top: 12px;
+		}
+		
+		.clanImage {
+			border-radius: 12px;
+		}
+	}
+	
+	.messageText .embeddedAttachmentLink {
+		margin: 0 20px 0 0 !important;
+		border: 2px solid #ccc;
+		border-radius: 12px;
+	}
+}

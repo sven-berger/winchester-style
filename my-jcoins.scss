@@ -1,0 +1,11 @@
+@include screen-lg {
+	#jcoinsPanel a {
+		margin-right: 15px !important;
+	}
+}
+
+.userMenu {
+	.userMenuItemUsernames, .userMenuItemLink, .userMenuItemMeta {
+		margin-left: 15px !important;
+	}
+}

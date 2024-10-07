@@ -1,0 +1,46 @@
+.discord-widget {
+	background: #efefef !important;
+	border-radius: 12px 12px 0 0 !important;
+	padding: 30px 30px 0 30px !important;
+}
+
+.discord-shoutbox {
+	border-radius: 0 0 12px 12px !important;
+	background-image: url(../images/scDiscordWidgetBoxBackground-l.png), url(../images/scDiscordWidgetBoxBackground-r.png);
+	margin-top: 0 !important;
+	padding: 0 !important;
+	.boxContent {
+		padding: 0 12px !important;
+	}
+}
+
+.scDiscordWidget {
+	.widget-member {
+		margin: 15px 0 30px 0 !important;
+	}
+		
+	.widget-member-name {
+		font-weight: bold;
+  		color: #3579BD;
+		margin-left: 3px;
+	}
+}
+
+.discord-widget, .discord-shoutbox {
+	.boxEditButton {
+		display: none;
+	}
+}
+
+.discord-seite {
+	.discord-widget {
+		padding: 16px !important;
+		.boxTitle {
+			display: none;
+		}
+	}
+}
+
+.box[data-box-identifier="com.woltlab.wcf.genericBox212"] {
+	padding: 0 !important;
+}

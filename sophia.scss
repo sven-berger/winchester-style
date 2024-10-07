@@ -1,0 +1,26 @@
+body[itemid="https://the-supernatural.de/user/2-sophia/"] {
+	.contentHeaderDescription, .contentInteraction, .tabMenu, .content .sectionTitle, .content .userTitleBadge {
+		display: none !important;
+	}
+	.userProfileCoverPhoto {
+		border-radius: 12px !important;
+	}
+}
+
+.messageSidebar:not(.userOnlineGroupMarking6 .messageSidebar) {
+	text-align: left !important;
+	&::before {
+		display: none;
+	}	
+}
+
+.messageSidebar {
+	.messageAuthorBackground {
+		border-radius: 6px 6px 0 0;
+	}
+	
+    .badgeOnline::before {
+        left: 32px !important;
+        top: 2px !important;
+    }
+}

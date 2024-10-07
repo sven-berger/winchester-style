@@ -1,0 +1,108 @@
+.mein-hoster {
+
+	fa-icon[name="thumbs-up"] {
+		color: #3579be !important;
+	}
+
+    h2 {
+        margin-top: 0 !important;
+    }
+
+    .boxImage {
+        max-height: 100% !important;
+    }
+    
+    .htmlContent h2,
+        .boxesContentBottom .boxTitle {
+            color: #3579be;
+        }
+        
+        .htmlContent h3 {
+            color: #f20e0e;
+        }
+        
+        .boxesContentBottom .box {
+            background: #fafafa;
+            border-radius: 12px;
+            padding: 30px;	
+        }
+}
+
+.febas-woltlab {
+    background: #3a6d9c !important;
+    box-shadow: rgb(0 0 0 / 10%) 0 12px 28px 0, rgb(0 0 0 / 5%) 0 2px 4px 0;
+    
+    .boxTitle {
+        color: #ffd32a !important;
+    }
+    
+    .htmlContent p {
+        color: #fff !important;
+    }
+}
+
+.febas-feature-box {
+	background: #fafafa !important;
+	padding: 16px;
+	border-radius: 12px;
+	
+	.auflistung {
+		margin-top: 16px !important;
+	}
+
+    .febas-embedded {
+        margin-top: 16px !important;
+        border: 1px solid #d4dbe0;
+    }
+}
+
+@include screen-lg {
+	.febas-textbox .boxTitle:not(.febas-textbox-box .boxTitle) {
+		text-align: center;
+	}
+}
+
+:febas-textbox {
+	.boxTitle {
+		font-weight: 400 !important;
+		line-height: 1.28 !important;
+		letter-spacing: -0.5px !important;
+	}
+}
+
+.sechszehn-gruende {
+	li::before {
+		content: '\f00c';
+  		font-family: "Font Awesome 6 Free";
+  		font-weight: 600 !important;
+		margin-right: 10px;
+		color: #090;
+	}
+}
+
+.sechszehn-gruende li:not(:first-child) {
+	margin: 1em 0 !important;
+}
+
+.weitere-vorteile h4 {
+	font-size: var(--wcfFontSizeHeadline);
+	font-weight: 400;
+	line-height: 1.28;
+  	font-weight: 600;
+  	letter-spacing: -0.5px;
+	color: #f20e0e !important;
+	&::before {
+		content: '\f164';
+  		font-family: "Font Awesome 6 Free";
+  		font-weight: 600 !important;
+		margin-right: 5px;
+		color: #f20e0e;
+	}
+}
+
+.sechszehn-gruende, .weitere-vorteile {
+	.boxTitle {
+		padding-bottom: 10px !important;
+		border-bottom: 1px solid #3579be !important;
+	}
+}

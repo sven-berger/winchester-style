@@ -1,0 +1,86 @@
+@include screen-lg {
+	#tpl_wcf_user {
+		.content .userProfileUsername {
+			color: #000 !important;
+		}
+	
+		.content .contentTitle {
+			background: #efefef !important;
+			padding: 20px !important;
+			border-radius: 12px;
+			display: inline-block !important;
+		}
+	
+		.content .userTitleBadge {
+			display: flex;
+			margin-top: 30px !important;
+		}
+		
+		.content .contentHeader {
+			background: #efefef !important;
+			border-radius: 0 0 12px 12px !important;
+		}
+		
+		.content .contentHeaderDescription {
+			padding: 0 30px 30px 30px !important;
+		}
+		
+		.content .userProfileCoverPhoto {
+			border-bottom-left-radius: 0 !important;
+			border-bottom-right-radius: 0 !important;
+		}
+		
+		.content .userProfileUserWithCoverPhoto .contentHeaderDescription {
+			margin-top: 20px !important;
+		}
+	}
+}
+
+@include screen-md-down {
+	#tpl_wcf_user {
+		.content .userProfileUser .badge:not(.userProfileUser .badgeOnline) {
+			margin-top: 25px !important;
+		}
+
+		.content .userProfileUserWithCoverPhoto .contentHeaderDescription .inlineList {
+			display: flex !important;
+		}
+
+		.content .userProfileUserWithCoverPhoto .userProfileUsername + .userRankImage {
+			top: 25px !important;
+		}
+
+		.content .userProfileUserWithCoverPhoto .contentHeaderTitle .inlineDataList {
+			text-align: left !important;
+		}
+
+
+		.content .userProfileUser .contentHeaderTitle {
+			text-align: left !important;
+			padding-left: 30px !important;
+		}
+
+		.content .userProfileUserWithCoverPhoto .contentHeaderDescription {
+			margin: 0 !important;
+			padding: 0 0 60px 0 !important;
+		}
+	}
+}
+
+.userList .box48 {
+	text-align: left !important;
+	.inlineList {
+		li {
+			margin: 5px 0;
+		}
+	}
+	
+	.username {
+		margin-bottom: 0 !important;
+	}
+	
+	.containerHeadline > h3 > .badge {
+		margin-left: 0 !important;
+	}
+		
+}

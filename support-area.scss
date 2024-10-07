@@ -1,0 +1,168 @@
+#tpl_wcf_help {
+	.boxesContentTop .box {
+		padding: 0 !important;
+		background: none !important;
+		border: 0 !important;
+	}
+	
+	.flexibleCategoryList:not(.flexibleCategoryListDisabled) {
+    	column-count: 1 !important;
+	}
+	
+	.containerHeadline {
+		background-color: white;
+    	border-radius: 10px;
+    	padding: 10px !important;
+	}
+
+	.all-article {
+		background-color: #efefef;
+    	color: #202020;
+    	border-radius: 12px;
+		padding: 16px;
+		border: none !important;
+		
+		.sectionTitle {
+			background-color: #f20e0e;
+    		padding: 10px;
+			border-radius: 12px;
+			border: none !important;
+			color: #fff;
+		}
+	}
+
+	.important-article {
+			background-color: #efefef;
+    		color: #202020;
+    		border-radius: 12px;
+			padding: 16px;
+			border: none !important;
+
+		.sectionTitle {
+			background-color: #3579BD;
+    		padding: 10px;
+			border-radius: 8px;
+			border: none !important;
+			color: #fff;
+		}
+		
+		.containerHeadline {
+			background-color: #2b2e31;
+    		padding: 10px;
+			border-radius: 8px;
+			
+			a {
+				color: #fff !important;
+			}
+		}
+		
+		.containerList>li {
+			background: #fff !important;
+		}
+		
+		.containerList>li:not(:first-child) {
+			margin: 10px 0 !important;
+		}
+		
+		.inlineList {
+			padding: 10px !important;
+		}
+	}
+}
+
+#tpl_wcf_categoryHelpList .containerHeadline h3::before {
+	content: '\f061';
+  	font-family: "Font Awesome 6 Free";
+  	font-weight: 600 !important;
+	margin-right: 5px;
+	color: #f20e0e;
+}
+
+#tpl_wcf_helpArticle {
+
+	.praesentation-hgs {
+		padding: 0 !important;
+		.boxEditButton {
+			display: none;
+		}
+	
+		.box {
+			padding: 0 !important;
+		}
+	}
+
+	.content > .section {
+		border-radius: 12px;
+		background: #efefef;
+		padding: 16px;
+	}
+
+	.section a, .section a:hover {
+		font-weight: bold;
+  		color: #3579BD;
+	}
+
+	.htmlContent {
+
+		p {
+			margin: 0 !important;
+		}
+
+		fa-icon[name="check"] {
+			color: green !important;
+		}
+		
+		fa-icon[name="arrow-right"] {
+			color: #3579BD !important;
+		}
+
+		sup {
+			color: #f20e0e !important;
+			font-weight: bold;
+		}
+			
+		table {
+			
+			a {
+				color: #3579be !important;
+				font-weight: bold;
+			}
+		}
+			
+		dl a {
+			color: #3579BD !important;
+			font-weight: bold !important;
+		}
+		
+		.section {
+			background: #efefef;
+			border-radius: 8px;
+			padding: 16px;
+		}
+		
+		.formBBCodeContent {
+			background: #fff !important;
+			border-radius: 12px !important;
+		}
+		
+		.messageSidebar .userCredits {
+			display: block !important;
+		}
+		
+		@include screen-md-down { 
+			.rang-praesentation {
+				padding: 0 30px;
+			}
+		}
+
+		.messageSidebar .plain.dataList::before {
+			content: "";
+			font-family: "Font Awesome 6 Free";
+			font-weight: 600;
+		}
+	}
+
+	.badge_admin, .badge_mod, .badge_erzengel {
+		font-size: 12px !important;
+	}
+}
