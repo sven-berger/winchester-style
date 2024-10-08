@@ -11,6 +11,10 @@ body[data-page-id="68"] {
         .boxesContentTop {
             margin-top: 20px !important;
         }
+
+        .boxesSidebarLeft.open::before, .boxesSidebarRight.open::before {
+            margin-bottom: 20px !important;
+        }
     }
         
     .willkommensbox {
