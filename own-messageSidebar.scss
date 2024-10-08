@@ -1,3 +1,12 @@
+.messageSidebar:not(.userOnlineGroupMarking6 .messageSidebar) {
+	text-align: left !important;
+
+    .badgeOnline::before {
+        // left: 32px !important;
+       // top: 2px !important;
+    }
+}
+
 @include screen-lg { 
     .userOnlineGroupMarking4 .messageSidebar {
         border: 3px solid #d64434 !important;
