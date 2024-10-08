@@ -160,14 +160,4 @@ body[data-page-id="68"] {
         color: var(--wcfSidebarHeadlineText) !important;
     }
 }
-
-@include screen-md-down {
-    .contentHeader .contentHeaderTitle {
-        margin-top: 30px !important;
-    }
-
-    .boxesContentTop, .box {
-        margin-top: 20px !important;
-    }
-}
 }
