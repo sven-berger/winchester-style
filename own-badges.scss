@@ -3,9 +3,13 @@
         margin-bottom: 0;	
     }
 
-    .badge:not(.badgeOnline, .jCoinsBadgeUpdate, .badge_sophia) {
+    .badge:not(.badgeOnline, .jCoinsBadgeUpdate) {
         background: none !important;
         padding-left: 0 !important;
+    }
+
+    .badge_user {
+        color: #393939 !important;
     }
     
     .badge_admin, .badge_erzengel {
@@ -21,11 +25,7 @@
         }
     }
 
-    @include screen-lg {
-        .badge_user {
-            color: #393939 !important;
-        }
-   
+    @include screen-lg {  
         .badge_admin {
             color: #d64434 !important;
         }
