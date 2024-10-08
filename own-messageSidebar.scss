@@ -13,7 +13,7 @@
 }
 
 @include screen-lg { 
-    .messageGroupStarter .messageSidebar .plain.dataList::before {
+    .messageSidebar .plain.dataList::before {
         display: none;
     }
 
