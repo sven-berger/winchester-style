@@ -54,3 +54,9 @@
     }
 }
 }
+
+@include screen-md-down {
+    .badge_admin {
+        background: #3579BD;
+    }
+}
