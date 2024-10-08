@@ -104,6 +104,14 @@
         .username, .messageAuthorContainer::before {
             color: #fff !important;
         }
+
+        .userRank {
+            display: none;
+        }
+
+        .badge {
+            background: #3579BD;
+        }
     }
 
     .userOnlineGroupMarking4 .messageSidebar {
