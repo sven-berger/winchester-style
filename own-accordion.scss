@@ -13,9 +13,13 @@
 			padding: 0 16px !important;
 		}
 		
-		li:not(.db-kategorien li) {
-			margin: 10px 0 !important;
+		li {
+			margin: 10px 0;
 		}
+	}
+
+	.db-kategorien li {
+		margin: 0 !important;
 	}
 }
 
