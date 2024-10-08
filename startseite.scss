@@ -71,7 +71,7 @@ body[data-page-id="68"] {
 		    display: none;
 	    }
     }
-}
+
 
 .startseite-datenbank-aktuelle-eintraege {
     @include screen-xl {
@@ -165,4 +165,9 @@ body[data-page-id="68"] {
     .contentHeader .contentHeaderTitle {
         margin-top: 30px !important;
     }
+
+    .boxesContentTop, .box {
+        margin-top: 20px !important;
+    }
+}
 }
