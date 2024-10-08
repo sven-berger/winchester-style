@@ -9,7 +9,7 @@
     }
 
     .badge_user {
-        color: #393939 !important;
+        color: #393939;
     }
     
     .badge_admin, .badge_erzengel {
@@ -64,6 +64,10 @@
     @include screen-md-down {
         .badge_admin, .badge_mod, .badge_erzengel, .badge_clan-founder, .badge_sophia {
             color: #fff !important;
+        }
+
+        .badge_sophia {
+            color: blue !important;
         }
     }
 }
