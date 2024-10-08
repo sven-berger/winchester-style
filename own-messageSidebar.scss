@@ -77,7 +77,7 @@
 }
 
 @include screen-md-down { 
-    .userOnlineGroupMarking4 .messageSidebar, .userOnlineGroupMarking9 .messageSidebar, .userOnlineGroupMarking10 .messageSidebar, .userOnlineGroupMarking11 .messageSidebar, .demo-hueter {
+    .userOnlineGroupMarking4 .messageSidebar, .userOnlineGroupMarking9 .messageSidebar, .userOnlineGroupMarking10 .messageSidebar, .userOnlineGroupMarking11, .userOnlineGroupMarking12 .messageSidebar, .userOnlineGroupMarking17 .messageSidebar {
         border-radius: 8px 8px 0 0 !important;
     }
 }
@@ -85,6 +85,18 @@
 .demo-hueter {
     background: #fafafa !important;
     width: 210px !important;
+    border-bottom-width: 30px !important;
+	&::after {
+		font-weight: bold;
+        bottom: -23px;
+        content: "Hüter";
+        height: 20px;
+        left: 60%;
+        position: absolute;
+        transform: translateX(-50%);
+        width: 102px;
+        color: #fff;
+    }   
     .plain.dataList::before {
         font-size: 17px;
         display: block;
