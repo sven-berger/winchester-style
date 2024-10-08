@@ -21,7 +21,7 @@
         margin-bottom: 0;	
     }
         
-    .badge:not(.badgeOnline, #tpl_wcf_user .userPanel > ul > li .badge, .badge_sophia) {
+    .badge:not(.badgeOnline, .jCoinsBadgeUpdate, .badge_sophia) {
         background: none !important;
         padding-left: 0 !important;
         color: #393939;
