@@ -1,42 +1,98 @@
-.userOnlineGroupMarking4 .messageSidebar {
-   border: 3px solid #d64434 !important;
-   @include screen-lg { border-radius: 8px !important; }
-   @include screen-md-down { border-radius: 8px 8px 0 0 !important; }
-}
+@include screen-lg { 
+    .userOnlineGroupMarking4 .messageSidebar {
+        border: 3px solid #d64434 !important;
+        border-radius: 8px !important;
+    }
 
-.userOnlineGroupMarking6 .messageSidebar {
-	border: 2px solid #b26e25 !important;
-	.userCredits {
-		display: none;
-	}
-	
-	.messageAuthorBackground {
-		border-radius: 12px 12px 0 0 !important;
-	}
-}
+    .userOnlineGroupMarking6 .messageSidebar {
+        border: 2px solid #b26e25 !important;
+        .userCredits {
+            display: none;
+        }
+        
+        .messageAuthorBackground {
+            border-radius: 12px 12px 0 0 !important;
+        }
+    }
 
-.userOnlineGroupMarking9 .messageSidebar, .demo-hueter {
-	border: 1px solid #3579be !important;
-	border-bottom-width: 30px !important;
-	border-radius: 8px !important; 
-    &::after {
-        bottom: -23px;
-        content: "Huter";
-        height: 20px;
-        left: 65%;
-        position: absolute;
-        transform: translateX(-50%);
-        width: 102px;
-        color: #fff;
-        font-weight: bold;
+    .userOnlineGroupMarking9 .messageSidebar, .demo-hueter {
+        border: 1px solid #3579be !important;
+        border-bottom-width: 30px !important;
+        border-radius: 8px !important; 
+        &::after {
+            bottom: -23px;
+            content: "Huter";
+            height: 20px;
+            left: 65%;
+            position: absolute;
+            transform: translateX(-50%);
+            width: 102px;
+            color: #fff;
+            font-weight: bold;
+        }
+    }
+
+    .userOnlineGroupMarking10 .messageSidebar {
+        border-radius: 8px !important;
+        border: 1px solid #f20e0e !important;
+        border-bottom-width: 30px !important;
+        &::after {
+            font-weight: bold;
+            bottom: -23px;
+            content: "Gelehrter";
+            height: 20px;
+            left: 60%;
+            position: absolute;
+            transform: translateX(-50%);
+            width: 102px;
+            color: #fff;
+         }   
+    }
+
+    .userOnlineGroupMarking11 .messageSidebar{
+        border-radius: 8px;
+        border: 1px solid #000 !important;
+        border-bottom-width: 30px !important;
+        &::after {
+            content: 'Sensenmann';
+            position: relative;
+            bottom: -23px;
+            height: 20px;
+            left: 55%;
+            position: absolute;
+            transform: translateX(-50%);
+            width: 102px;
+            color: #fff;
+            font-weight: bold;
+        }
+    }
+
+    .userOnlineGroupMarking12 .messageSidebar {
+        border: 2px solid #c4c4c4 !important;
+    }
+    
+    .userOnlineGroupMarking17 .messageSidebar {
+        border: 2px solid #6bbce4 !important;
     }
 }
 
 @include screen-md-down { 
-	.userOnlineGroupMarking9 .messageSidebar {
+    .userOnlineGroupMarking4 .messageSidebar, .userOnlineGroupMarking9 .messageSidebar, .userOnlineGroupMarking10 .messageSidebar, .userOnlineGroupMarking11 .messageSidebar, .demo-hueter {
+        border-radius: 8px 8px 0 0 !important;
+    }
+
+    .userOnlineGroupMarking9 .messageSidebar {
 		border: 1px solid #3579be !important;
-		border-radius: 8px 8px 0 0 !important;
 	}
+
+    .userOnlineGroupMarking10 .messageSidebar {
+        border: 1px solid #f20e0e !important;
+    }
+
+    .userOnlineGroupMarking11 .messageSidebar {
+        border: 1px solid #000 !important;
+    }
+
 }
 
 .demo-hueter {
@@ -50,37 +106,13 @@
         background: #fafafa !important;
         width: 26px;
     }
-	
-}
-
-.userOnlineGroupMarking10 .messageSidebar, .demo-gelehrter {
-    @include screen-lg { border-radius: 8px !important; }
-    @include screen-md-down { border-radius: 8px 8px 0 0 !important; }
-    border: 1px solid #f20e0e !important;
-    border-bottom-width: 30px !important;
-		&::after {
-			font-weight: bold;
-            bottom: -23px;
-            content: "Gelehrter";
-            height: 20px;
-            left: 60%;
-            position: absolute;
-            transform: translateX(-50%);
-            width: 102px;
-            color: #fff;
-        }
-           
-}
-
-@include screen-md-down {
-    .userOnlineGroupMarking10 .messageSidebar {
-        border: 1px solid #f20e0e !important;
-    }
 }
 
 .demo-gelehrter {
     background: #fafafa !important;
 	width: 210px !important;
+    border: 1px solid #f20e0e !important;
+    border-bottom-width: 30px !important;
     .plain.dataList::before {
     	font-size: 17px;
     	display: block;
@@ -89,34 +121,22 @@
 		background: #fafafa !important;
 		width: 26px;
 	}
-}
-
-.userOnlineGroupMarking11 .messageSidebar, .demo-sensenmann {
-    @include screen-lg { border-radius: 8px !important; }
-    @include screen-md-down { border-radius: 8px 8px 0 0 !important; }
-    border: 1px solid #000 !important;
-    border-bottom-width: 30px !important;
-        &::after {
-			content: 'Sensenmann';
-            position: relative;
-            bottom: -23px;
-            height: 20px;
-            left: 55%;
-            position: absolute;
-            transform: translateX(-50%);
-            width: 102px;
-            color: #fff;
-            font-weight: bold;
-        }
-}
-
-@include screen-md-down {
-    .userOnlineGroupMarking11 .messageSidebar {
-        border: 1px solid #000 !important;
-    }
+	&::after {
+		font-weight: bold;
+        bottom: -23px;
+        content: "Gelehrter";
+        height: 20px;
+        left: 60%;
+        position: absolute;
+        transform: translateX(-50%);
+        width: 102px;
+        color: #fff;
+    }   
 }
 
 .demo-sensenmann {
+    border: 1px solid #000 !important;
+    border-bottom-width: 30px !important;
     background: #fafafa !important;
     width: 210px !important;
     .plain.dataList::before {
@@ -127,19 +147,20 @@
 		background: #fafafa !important;
 		width: 26px;
 	}
-}
-
-.userOnlineGroupMarking12 .messageSidebar {
-	border: 2px solid #c4c4c4 !important;
-}
-
-.userOnlineGroupMarking17 .messageSidebar {
-	border: 2px solid #6bbce4 !important;
-}
-
-@include screen-md-down {
-    .demo-sensenmann, .demo-hueter, .demo-gelehrter {
-        border-bottom-left-radius: 8px !important;
-        border-bottom-right-radius: 8px !important;
+    &::after {
+		content: 'Sensenmann';
+        position: relative;
+        bottom: -23px;
+        height: 20px;
+        left: 55%;
+        position: absolute;
+        transform: translateX(-50%);
+        width: 102px;
+        color: #fff;
+        font-weight: bold;
     }
+}
+
+.demo-hueter, .demo-gelehrter, demo-sensenmann {
+    border-radius: 8px !important; 
 }
