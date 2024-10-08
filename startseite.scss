@@ -132,6 +132,10 @@ body[data-page-id="68"] {
     background: #efefef !important;
     padding: 30px !important;
     border-radius: 12px;
+
+    .boxContent {
+        padding: 0 !important;
+    }
     
     .boxTitle {
         background-color: var(--wcfEditorButtonBackground);
@@ -153,7 +157,7 @@ body[data-page-id="68"] {
         }
             
         .boxContent {
-            padding: 0 16px !important;
+            padding: 0 !important;
         }
     }
 }
