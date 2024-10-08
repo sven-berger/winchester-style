@@ -127,7 +127,7 @@ body[data-page-id="68"] {
 	}    
 }
 
-@include screen-md-down {
+
 .beliebste-db-eintraege {
     background: #efefef !important;
     padding: 30px !important;
@@ -142,9 +142,9 @@ body[data-page-id="68"] {
         font-weight: 500;
     }
 }
-}
 
 
+@include screen-md-down {
 .beliebste-db-eintraege {
     background: #fff !important;
     padding: 16px !important;
@@ -156,6 +156,7 @@ body[data-page-id="68"] {
     .boxContent {
         padding: 0 16px !important;
     }
+}
 }
 
 .beliebteste-ueberschrift, .beliebteste-inhalte, .datenbank-spalten {
