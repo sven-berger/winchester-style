@@ -13,8 +13,8 @@
 }
 
 @include screen-lg { 
-    .messageSidebar .plain.dataList::before {
-        display: none;
+    .messageGroupStarter .messageSidebar .plain.dataList::before {
+        display: none !important;
     }
 
     .userOnlineGroupMarking4 .messageSidebar {
