@@ -16,7 +16,7 @@
     }
 
     .userOnlineGroupMarking9 .messageSidebar, .demo-hueter {
-        border: 1px solid #3579be !important;
+		border: 1px solid #3579be !important;
         border-bottom-width: 30px !important;
         border-radius: 8px !important; 
         &::after {
@@ -80,19 +80,6 @@
     .userOnlineGroupMarking4 .messageSidebar, .userOnlineGroupMarking9 .messageSidebar, .userOnlineGroupMarking10 .messageSidebar, .userOnlineGroupMarking11 .messageSidebar, .demo-hueter {
         border-radius: 8px 8px 0 0 !important;
     }
-
-    .userOnlineGroupMarking9 .messageSidebar {
-		border: 1px solid #3579be !important;
-	}
-
-    .userOnlineGroupMarking10 .messageSidebar {
-        border: 1px solid #f20e0e !important;
-    }
-
-    .userOnlineGroupMarking11 .messageSidebar {
-        border: 1px solid #000 !important;
-    }
-
 }
 
 .demo-hueter {
