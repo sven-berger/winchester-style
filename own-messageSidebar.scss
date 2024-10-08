@@ -2,6 +2,10 @@
 	text-align: left !important;
 }
 
+.messageAuthorBackground {
+    border-radius: 6px 6px 0 0;
+}
+
 .messageSidebar:not(.demo-hueter, .demo-gelehrter, .demo-sensenmann) {
     .dataList {
         border-top: 0 !important;
