@@ -127,7 +127,7 @@ body[data-page-id="68"] {
 	}    
 }
 
-@media only screen and (min-width: 1200px) and (max-width: 1920px) and (min-height: 600px) and (max-height: 1080px) {
+@include screen-md-down {
 .beliebste-db-eintraege {
     background: #efefef !important;
     padding: 30px !important;
@@ -136,10 +136,10 @@ body[data-page-id="68"] {
     .boxTitle {
         background-color: var(--wcfEditorButtonBackground);
         padding: 10px 15px;
-          font-size: 14px;
-          border-radius: 8px;
-         margin: -10px -15px 0px;
-          font-weight: 500;
+        font-size: 14px;
+        border-radius: 8px;
+        margin: -10px -15px 0px;
+        font-weight: 500;
     }
 }
 }
