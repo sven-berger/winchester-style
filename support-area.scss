@@ -80,14 +80,16 @@
 
 #tpl_wcf_helpArticle {
 
-	.praesentation-hgs {
-		padding: 0 !important;
-		.boxEditButton {
-			display: none;
-		}
-	
-		.box {
+	@include screen-lg {
+		.praesentation-hgs {
 			padding: 0 !important;
+			.boxEditButton {
+				display: none;
+			}
+	
+			.box {
+				padding: 0 !important;
+			}
 		}
 	}
 
