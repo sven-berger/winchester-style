@@ -96,7 +96,7 @@
 }
 
 @include screen-md-down { 
-    .userOnlineGroupMarking4 .messageSidebar, .userOnlineGroupMarking9 .messageSidebar, .userOnlineGroupMarking10 .messageSidebar, .userOnlineGroupMarking11, .userOnlineGroupMarking12 .messageSidebar, .userOnlineGroupMarking17 .messageSidebar {
+    .userOnlineGroupMarking4 .messageSidebar, .userOnlineGroupMarking6 .messageSidebar, .userOnlineGroupMarking9 .messageSidebar, .userOnlineGroupMarking10 .messageSidebar, .userOnlineGroupMarking10 .messageSidebar, .userOnlineGroupMarking11, .userOnlineGroupMarking12 .messageSidebar, .userOnlineGroupMarking17 .messageSidebar {
         border-radius: 8px 8px 0 0 !important;
     }
 
@@ -112,6 +112,26 @@
 
     .userOnlineGroupMarking4 .messageSidebar {
         background: #f20e0e !important;
+    }
+
+    .userOnlineGroupMarking6 .messageSidebar {
+        background: #b26e25 !important;
+    }
+
+    .userOnlineGroupMarking9 .messageSidebar {
+		background: 1px solid #3579be !important;
+    }
+
+    .userOnlineGroupMarking10 .messageSidebar {
+        background:#f20e0e !important;
+    }
+
+    .userOnlineGroupMarking11 .messageSidebar {
+        background: #000 !important;
+    }
+
+    .userOnlineGroupMarking12 .messageSidebar {
+        background: #c4c4c4 !important;
     }
 
     .userOnlineGroupMarking17 .messageSidebar {
