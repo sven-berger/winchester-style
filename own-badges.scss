@@ -59,7 +59,7 @@
     }
 
     @include screen-md-down {
-        .badge:not(.badgeOnline, .jCoinsBadgeUpdate, .badge_sophia) {
+        .badge:not(.badgeOnline, .jCoinsBadgeUpdate, .badge_sophia, .badge_user) {
             color: #fff !important;
         }
     }

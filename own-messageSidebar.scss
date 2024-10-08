@@ -13,6 +13,10 @@
 }
 
 @include screen-lg { 
+    .messageGroupStarter .messageSidebar .plain.dataList::before {
+        display: none;
+    }
+
     .userOnlineGroupMarking4 .messageSidebar {
         border: 3px solid #d64434 !important;
         border-radius: 8px !important;
@@ -97,9 +101,7 @@
         .username, .messageAuthorContainer::before {
             color: #fff !important;
         }
-    }
 
-    .messageSidebar {
         .userRank {
             display: none;
         }
