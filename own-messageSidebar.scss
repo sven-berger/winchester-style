@@ -7,11 +7,9 @@
     }
 }
 
-.messageSidebar:not(.demo-hueter, .demo-gelehrter, .demo-sensenmann) {
-    .messageSidebar .dataList {
-        border-top: 0 !important;
-        margin: -10px !important;
-    }
+.messageSidebar:not(.demo-hueter, .demo-gelehrter, .demo-sensenmann) .dataList {
+    border-top: 0 !important;
+    margin: -10px !important;
 }
 
 @include screen-lg { 
