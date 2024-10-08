@@ -12,9 +12,18 @@
         font-weight: bold !important;
     }
 
+    .badge_sophia {
+        &::before {
+            margin-right: 5px;
+            content: '\f481';
+            font-family: "Font Awesome 6 Free";
+            font-weight: 600 !important;
+        }
+    }
+
     @include screen-lg {
         .badge_user {
-            color: #393939;
+            color: #393939 !important;
         }
    
         .badge_admin {
@@ -32,12 +41,6 @@
 	    .badge_sophia {
 		    background: #b26e25 !important;
 		    margin-top: 5px;
-		    &::before {
-			    margin-right: 5px;
-			    content: '\f481';
-			    font-family: "Font Awesome 6 Free";
-			    font-weight: 600 !important;
-		    }
 	    }
 
         .badge_clan-founder {
@@ -59,7 +62,7 @@
     }
 
     @include screen-md-down {
-        .badge_admin, .badge_mod, .badge_erzengel, .badge_clan-founder {
+        .badge_admin, .badge_mod, .badge_erzengel, .badge_clan-founder, .badge_sophia {
             color: #fff !important;
         }
     }
