@@ -1,19 +1,25 @@
 .accordion-db {
 	padding: 0 !important;
 	margin-top: 0 !important;
-		.beliebteste-box {
-			background: #fff !important;
-			padding: 16px !important;
+	.beliebteste-box {
+		background: #fff !important;
+		padding: 16px !important;
 			
-				.boxTitle, .boxTitle a, .boxTitle a:hover {
-					color: #fff !important;
-				}
-		
-				.boxContent {
-					padding: 0 16px !important;
-				}
+		.boxTitle, .boxTitle a, .boxTitle a:hover {
+			color: #fff !important;
 		}
+		
+		.boxContent {
+			padding: 0 16px !important;
+		}
+		
+		li:not(.db-kategorien li) {
+			margin: 10px 0 !important;
+		}
+	}
 }
+
+
 
 .accordion-page-mobile {
 	border-radius: 12px;
