@@ -1,62 +1,66 @@
-@include screen-lg {
 .messageSidebar, .userMenu, .userList .box48, .box[data-box-identifier="com.woltlab.wcf.SignedInAs"], .box[data-box-identifier="com.woltlab.wcf.StaffOnline"], #tpl_wcf_user, #tpl_wcf_helpArticle {
     .messageAuthorContainer:not(:last-child) {
         margin-bottom: 0;	
     }
-        
+
     .badge:not(.badgeOnline, .jCoinsBadgeUpdate, .badge_sophia) {
         background: none !important;
         padding-left: 0 !important;
-        color: #393939;
-    }
-   
-    .badge_admin {
-        color: #d64434 !important;
-        font-weight: bold;
     }
     
-    .badge_mod {
-        color: #6bbce4 !important;
+    .badge_admin, .badge_erzengel {
+        font-weight: bold !important;
     }
 
-    .badge_erzengel {
-        color: #989898 !important;
-        font-weight: bold;
-     }
-	
-	.badge_sophia {
-		background: #b26e25 !important;
-		margin-top: 5px;
-		&::before {
-			margin-right: 5px;
-			content: '\f481';
-			font-family: "Font Awesome 6 Free";
-			font-weight: 600 !important;
-		}
-	}
+    @include screen-lg {
+        .badge:not(.badgeOnline, .jCoinsBadgeUpdate, .badge_sophia) {
+            color: #393939;
+        }
+   
+        .badge_admin {
+            color: #d64434 !important;
+        }
+    
+        .badge_mod {
+            color: #6bbce4 !important;
+        }
 
-    .badge_clan-founder {
-        margin: 10px 0;
+        .badge_erzengel {
+            color: #989898 !important;
+        }
+	
+	    .badge_sophia {
+		    background: #b26e25 !important;
+		    margin-top: 5px;
+		    &::before {
+			    margin-right: 5px;
+			    content: '\f481';
+			    font-family: "Font Awesome 6 Free";
+			    font-weight: 600 !important;
+		    }
+	    }
+
+        .badge_clan-founder {
+            margin: 10px 0;
         
-        .badge {
-            background-color: transparent;
-            border: 1px solid currentColor;
-            color: #535c68;
-            padding: 3px !important;
-        
+            .badge {
+                background-color: transparent;
+                border: 1px solid currentColor;
+                color: #535c68;
+                padding: 3px !important;
                 &::before {
                     content: '\f2c5';
                     font-family: FontAwesome;
                     margin-right: 5px;
                     position: relative;
                 }
+            }
         }
     }
-}
-}
 
-@include screen-md-down {
-    .badge_admin {
-        background: #3579BD;
+    @include screen-md-down {
+        .badge:not(.badgeOnline, .jCoinsBadgeUpdate, .badge_sophia) {
+            color: #fff !important;
+        }
     }
 }
