@@ -2,6 +2,16 @@ body[data-page-id="68"] {
     .boxesContentTop .box {
         background: none;
     }
+
+    @include screen-md-down {
+        .contentHeader .contentHeaderTitle {
+            margin-top: 30px !important;
+        }
+        
+        .boxesContentTop {
+            margin-top: 20px !important;
+        }
+    }
         
     .willkommensbox {
         background: #efefef;
@@ -160,4 +170,6 @@ body[data-page-id="68"] {
         color: var(--wcfSidebarHeadlineText) !important;
     }
 }
+
+
 }
