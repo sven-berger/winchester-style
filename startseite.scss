@@ -143,6 +143,20 @@ body[data-page-id="68"] {
     }
 }
 
+@media only screen and (min-width: 1200px) and (max-width: 1920px) and (min-height: 600px) and (max-height: 1080px) {
+    .beliebste-db-eintraege {
+        background: #fff !important;
+        padding: 30px !important;
+                
+        .boxTitle, .boxTitle a, .boxTitle a:hover {
+            color: #fff !important;
+        }
+            
+        .boxContent {
+            padding: 0 16px !important;
+        }
+    }
+}
 
 @include screen-md-down {
 .beliebste-db-eintraege {

@@ -8,7 +8,11 @@
 		.boxTitle, .boxTitle a, .boxTitle a:hover {
 			color: #fff !important;
 		}
-			
+		
+		.boxContent:not(.beliebste-db-eintraege .boxContent) {
+			padding: 0 16px !important;
+		}
+		
 		li {
 			margin: 10px 0 !important;
 		}
