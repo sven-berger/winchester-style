@@ -18,6 +18,19 @@
 		}
 	}
 
+	.beliebste-db-eintraege {
+		background: #fff !important;
+		padding: 16px !important;
+				
+		.boxTitle, .boxTitle a, .boxTitle a:hover {
+			color: #fff !important;
+		}
+			
+		.boxContent {
+			padding: 0 16px !important;
+		}
+	}
+
 	.db-kategorien li {
 		margin: 0 !important;
 	}
