@@ -18,6 +18,10 @@ body[itemid="https://bunker.the-supernatural.de/user/2-sophia/"] {
 	.content .button {
 		display: none;
 	}
+
+	.contentHeaderDescription, .contentInteraction, .tabMenu, .content .sectionTitle, .content .userTitleBadge {
+		display: none !important;
+	}
 		
 	@include screen-md-down {
 		.userProfileCoverPhoto {
