@@ -1,9 +1,27 @@
 body[itemid="https://the-supernatural.de/user/2-sophia/"], 
 body[itemid="https://bunker.the-supernatural.de/user/2-sophia/"] {
-	.contentHeaderDescription, .contentInteraction, .tabMenu, .content .sectionTitle, .content .userTitleBadge {
-		display: none !important;
+	@include screen-lg {
+		.userProfileCoverPhoto {
+			background: #efefef !important;
+		}
+			
+		.userProfileUserWithCoverPhoto .contentHeaderTitle {
+			text-align: center !important;
+		}
+		
+		#tpl_wcf_user .content .contentHeader {
+			border-top-left-radius: 12px !important;
+			border-top-right-radius: 12px !important;
+		}
 	}
-	.userProfileCoverPhoto {
-		border-radius: 12px !important;
+		
+	.content .button {
+		display: none;
+	}
+		
+	@include screen-md-down {
+		.userProfileCoverPhoto {
+			border-radius: 12px 12px 0 0 !important;
+		}
 	}
 }
