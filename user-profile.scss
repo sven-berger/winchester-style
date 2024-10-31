@@ -16,7 +16,10 @@
 			margin-top: 30px !important;
 		}
 		
-
+		.content .contentHeader:not(body[itemid="https://the-supernatural.de/user/2-sophia/"] .content .contentHeader) {
+			background: #efefef !important;
+			border-radius: 0 0 12px 12px !important;
+		}
 		
 		.content .contentHeaderDescription {
 			padding: 0 30px 30px 30px !important;
