@@ -65,14 +65,29 @@
 		}
 	}
 
+	.links-overview {
+		background: #efefef;
+		padding: 16px 16px 0 16px !important;
+		border-radius: 12px;
+			
+		.sectionContainerList {
+			margin-top: 0 !important;
+		}
+			
+		.linkEntryItem {
+			background: #fafafa !important;
+			padding: 10px 16px 15px;
+			border-radius: 5px;
+		}
+	}
+	
 	.link-datenbank-spalten {
 		padding: 0 !important;
 		.boxTitle {
 			color: #fff !important;
 		}
 	}
-}
-	
+
 	.containerListFilterOptions button {
 		background-color: var(--wcfButtonBackgroundActive);
   		color: var(--wcfButtonTextActive);
