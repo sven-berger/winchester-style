@@ -63,11 +63,15 @@
 			padding: 10px 16px 15px;
 			border-radius: 5px;
 		}
+	}
 
-		.boxesSidebarRight .boxTitle {
+	.link-datenbank-spalten {
+		padding: 0 !important;
+		.boxTitle {
 			color: #fff !important;
 		}
 	}
+}
 	
 	.containerListFilterOptions button {
 		background-color: var(--wcfButtonBackgroundActive);
