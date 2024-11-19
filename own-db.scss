@@ -195,3 +195,17 @@
             border: 0 !important;
         }
 }
+
+#tpl_wcf_linkEntry {
+
+	.boxMenuResetFilter .boxMenuLink {
+		background: none !important;
+		padding: 0 !important;
+	}
+
+	.htmlContent {
+		padding: 16px;
+		background: #efefef;
+		border-radius: 12px;
+	}
+}
