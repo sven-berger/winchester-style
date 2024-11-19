@@ -118,11 +118,11 @@
 #tpl_lexicon_lexicon {
 
 .tabularBoxTitle > header {
-	background: none !important;
-	padding: 0 !important;
+	// background: none !important;
+	// padding: 0 !important;
 	@include screen-sm-down { padding: 0 0 8px 0 !important; }
 		a {
-			color: #1a1a1a !important;
+	//		color: #1a1a1a !important;
 		}
 }
 	
