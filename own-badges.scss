@@ -1,73 +1,71 @@
-.messageSidebar, .userMenu, .userList .box48, .box[data-box-identifier="com.woltlab.wcf.SignedInAs"], .box[data-box-identifier="com.woltlab.wcf.StaffOnline"], #tpl_wcf_user, #tpl_wcf_helpArticle {
-    .messageAuthorContainer:not(:last-child) {
-        margin-bottom: 0;	
-    }
+.messageSidebar .messageAuthorContainer:not(:last-child) {
+    margin-bottom: 0;	
+}
 
-    .badge:not(.badgeOnline, .jCoinsBadgeUpdate, .badge_sophia) {
-        background: none !important;
-        padding-left: 0 !important;
-    }
+.badge:not(.badgeOnline, .jCoinsBadgeUpdate, .badge_sophia) {
+    background: none !important;
+    padding-left: 0 !important;
+}
 
-    .badge_user {
-        color: #393939;
+.badge_user {
+    color: #393939;
+}
+    
+.badge_admin, .badge_erzengel {
+    font-weight: bold !important;
+}
+
+.badge_sophia {
+    &::before {
+        margin-right: 5px;
+        content: '\f481';
+        font-family: "Font Awesome 6 Free";
+        font-weight: 600 !important;
+    }
+}
+
+@include screen-lg {  
+    .badge_admin {
+        color: #d64434 !important;
     }
     
-    .badge_admin, .badge_erzengel {
-        font-weight: bold !important;
+    .badge_mod {
+        color: #6bbce4 !important;
     }
 
-    .badge_sophia {
-        &::before {
-            margin-right: 5px;
-            content: '\f481';
-            font-family: "Font Awesome 6 Free";
-            font-weight: 600 !important;
-        }
+    .badge_erzengel {
+        color: #989898 !important;
     }
-
-    @include screen-lg {  
-        .badge_admin {
-            color: #d64434 !important;
-        }
-    
-        .badge_mod {
-            color: #6bbce4 !important;
-        }
-
-        .badge_erzengel {
-            color: #989898 !important;
-        }
 	
-	    .badge_sophia {
-		    background: #b26e25 !important;
-		    margin-top: 5px;
-	    }
+    .badge_sophia {
+	    background: #b26e25 !important;
+        margin-top: 5px;
+	}
 
-        .badge_clan-founder {
-            margin: 10px 0;
+    .badge_clan-founder {
+        margin: 10px 0;
         
-            .badge {
-                background-color: transparent;
-                border: 1px solid currentColor;
-                color: #535c68;
-                padding: 3px !important;
-                &::before {
-                    content: '\f2c5';
-                    font-family: FontAwesome;
-                    margin-right: 5px;
-                    position: relative;
-                }
+        .badge {
+            background-color: transparent;
+            border: 1px solid currentColor;
+            color: #535c68;
+            padding: 3px !important;
+            &::before {
+                content: '\f2c5';
+                font-family: FontAwesome;
+                margin-right: 5px;
+                position: relative;
             }
         }
     }
+}
 
-    @include screen-md-down {
-        .badge_admin, .badge_mod, .badge_erzengel, .badge_clan-founder, .badge_sophia {
-            color: #fff !important;
-        }
+@include screen-md-down {
+    .badge_admin, .badge_mod, .badge_erzengel, .badge_clan-founder, .badge_sophia {
+        color: #fff !important;
+    }
 
-        .badge_sophia {
-            background: #3579BD !important;
-        }
+    .badge_sophia {
+        background: #3579BD !important;
     }
 }
