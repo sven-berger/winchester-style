@@ -116,55 +116,34 @@
 
 
 #tpl_lexicon_lexicon {
-
-.tabularBoxTitle > header {
-	// background: none !important;
-	// padding: 0 !important;
-	@include screen-sm-down { padding: 0 0 8px 0 !important; }
-		a {
-	//		color: #1a1a1a !important;
-		}
-}
+	.tabularBoxTitle > header h2 {
+		text-align: center !important;
+	}
 	
-.lexiconCategoryList .lexiconCategory {
-    background-color: white;
-    border-radius: 10px;
-    margin-bottom: 0px;
-    margin-top: 10px;
-	padding: 8px 0 !important;
-	@include screen-sm-down { padding: 6px 16px 8px !important; }
-}
+	.lexiconCategoryList .lexiconCategory {
+    	background-color: white;
+    	border-radius: 10px;
+    	margin-bottom: 0px;
+    	margin-top: 10px;
+		padding: 8px 0 !important;
+		@include screen-sm-down { padding: 6px 16px 8px !important; }
+	}
 	
-.lexiconCategoryContainer {
-	border-bottom: 0 !important;
-}
+	.lexiconCategoryContainer {
+		border-bottom: 0 !important;
+	}
 
+	.lexiconAlphabetNavigation {
+  		background: #efefef;
+  		border-radius: 12px;
+  		padding: 20px;
+		justify-content: center;
+	}
 
-
-.tabularBox.lexiconCategoryList {
-//	background: none !important;
-//	padding: 0 !important;
-//	border-radius: 0 !important;
-}
-
-.lexiconAlphabetNavigation {
-  	background: #efefef;
-  	border-radius: 12px;
-  	padding: 20px;
-	justify-content: center;
-}
-
-.lexiconIndexEntryList {
-	background: #efefef;
-	border-radius: 12px;
-}
-
-.lexiconMainCategory {
-	// padding: 16px;
-	// background: #efefef;
-	// border-radius: 12px;
-}
-
+	.lexiconIndexEntryList {
+		background: #efefef;
+		border-radius: 12px;
+	}
 }
 
 .box.datenbank-hueter {
