@@ -2,7 +2,7 @@
     margin-bottom: 0;	
 }
 
-.badge:not(.badgeOnline, .jCoinsBadgeUpdate, .badgeUpdate, .jsIconOfficial, .jsIconDisabled, #comments .badge, .boxMenu .badge, .badge_sophia) {
+.badge:not(.badgeOnline, .jCoinsBadgeUpdate, .badgeUpdate, .jsIconOfficial, .jsIconDisabled, .jsLabelFeatured, #comments .badge, .boxMenu .badge, .badge_sophia) {
     background: none !important;
     padding-left: 0 !important;
 }
