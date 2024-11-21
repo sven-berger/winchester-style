@@ -2,7 +2,7 @@
     margin-bottom: 0;	
 }
 
-.badge:not(.badgeOnline, .jCoinsBadgeUpdate, .badgeUpdate, .jsIconOfficial, .jsIconDisabled, .jsLabelFeatured, #comments .badge, .boxMenu .badge, .badge_sophia) {
+.badge_user, .badge_admin, .badge_erzengel, .badge_mod, .badge_erzengel {
     background: none !important;
     padding-left: 0 !important;
 }
@@ -44,12 +44,13 @@
 
     .badge_clan-founder {
         margin: 10px 0;
-        
+
         .badge {
             background-color: transparent;
             border: 1px solid currentColor;
             color: #535c68;
             padding: 3px !important;
+            
             &::before {
                 content: '\f2c5';
                 font-family: FontAwesome;
